@@ -1,5 +1,9 @@
 # kie-wb-distributions
 
+## Why do we need one more kie-wb-distribution?
+
+We had an issue with uploading artifacts built in Java 17. The changes in this repository help to use custom process variables in Bussiness Central. Try it out!
+
 <a href="https://ibb.co/SJ5vFYz"><img src="https://i.ibb.co/d7jK8CR/pom.png" alt="pom" border="0"></a>
 
 ## Parent POMs and Inheritance
