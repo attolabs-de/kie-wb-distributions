@@ -4,9 +4,20 @@
 
 We had an issue with uploading artifacts built in Java 17. The changes in this repository help to use custom process variables in Bussiness Central. Try it out!
 
-<a href="https://ibb.co/SJ5vFYz"><img src="https://i.ibb.co/d7jK8CR/pom.png" alt="pom" border="0"></a>
+## How to build Business Central?
+
+1. Run the following command in the project's root path.
+<br>`mvn clean install -e`
+
+2. Once the building is completed, go to
+<br>`business-central-parent -> jbpm-server-distribution -> target -> jbpm-server-7.74.0-SNAPSHOT-dist.zip`
+
+3. Unzip the jbpm-server-7.74.0-SNAPSHOT-dist.zip and go to
+<br>`standalone -> deployments -> business-central.war`
 
 ## Parent POMs and Inheritance
+
+<a href="https://ibb.co/SJ5vFYz"><img src="https://i.ibb.co/d7jK8CR/pom.png" alt="pom" border="0"></a>
 
 1. <b>jboss-parent.pom.xml:</b>
 
