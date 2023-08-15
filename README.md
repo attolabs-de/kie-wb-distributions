@@ -35,3 +35,22 @@ The purpose of this POM is to further refine configurations specific to our proj
 The project-specific POM (`pom.xml`) is the main POM for an individual project.
 It references the `kie-parent.pom.xml` as its parent, inheriting configurations from both `kie-parent.pom.xml` and indirectly from `jboss-parent.pom.xml`.
 This setup ensures that our project adheres to the organization-wide standards while still allowing project-specific customizations.
+
+## Versions and differences
+
+### JBoss parent
+1. JBoss parent version: `40-SNAPSHOT`
+2. `maven-jar-plugin` version: from `3.3.0` to `3.1.0`
+3. `maven.compiler.target` version: from `11` to `1.8`
+4. `maven.compiler.source` version: from `11` to `1.8`
+5. `requireMavenVersion` version: from `3.6.2` to `3.2.5`
+6. from `<systemPropertyVariables/>` to `<systemProperties>`
+7. removed: `versions-maven-plugin`
+
+### Kie parent
+1. Kie parent version: `7.74.0-SNAPSHOT`
+2. `logback-core` version: from `1.4.7` to `1.2.9`
+3. `commons-cli` version: from `1.5.0` to `1.4`
+4. `commons-configuration` version: from `1.10` to `1.6`
+5. `commons-digester` version: from `2.1` to `1.8`
+6. `commons-fileupload` version: from `1.5` to `1.4`
