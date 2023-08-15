@@ -75,11 +75,13 @@ This setup ensures that our project adheres to the organization-wide standards w
 34. `version.war.plugin` version: from `3.2.2` to `3.3.2`
 35. `version.zanata.plugin` version: from `4.4.3` to `4.6.2`
 36. `version.plexus.archiver` version: from `3.6.0` to `4.7.1`
+37. `version.checkstyle` version: from `8.19` to `8.34`
+38. 
 
 ### Kie parent
 1. Kie parent version: `7.74.0-SNAPSHOT`
-2. `logback-core` version: from `1.4.7` to `1.2.9`
-3. `commons-cli` version: from `1.5.0` to `1.4`
-4. `commons-configuration` version: from `1.10` to `1.6`
-5. `commons-digester` version: from `2.1` to `1.8`
-6. `commons-fileupload` version: from `1.5` to `1.4`
+2. `version.commons-fileupload` version: from `1.5` to `1.4`
+3. `version.org.reflections` version: from `0.9.11` to `0.10.2`
+4. `version.xalan` version: from `2.7.3` to `2.7.2`
+5. `version.org.apache.cxf` version: from `3.5.5` to `3.4.0`
+6. `version.net.byte-buddy` version: from `1.10.3` to `1.14.4`
