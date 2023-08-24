@@ -19,6 +19,31 @@ We had an issue with uploading artifacts built in Java 17. The changes in this r
 
 <a href="https://ibb.co/yqKVH2P"><img src="https://i.ibb.co/4pCJhkt/kie-wb-distributions.png" alt="kie-wb-distributions" border="0"></a>
 
+1. Custom repository was added to repositories 
+ ```
+ <repository>
+    <id>nexus-snapshots</id>
+    <url>https://nexusoss.albs.tech/repository/kie-parent/</url>
+ </repository>
+ ```
+2. Parent version was changed
+   ### From
+   ```
+    <parent>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-parent</artifactId>
+      <version>7.74.0-SNAPSHOT</version>
+      <relativePath>kie-parent.pom.xml</relativePath>
+    </parent>
+   ```
+   ### To
+   ```
+   <parent>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-parent</artifactId>
+      <version>7.74.0-20230823.064240-2</version>
+   </parent>
+   ```
 ## Versions and differences
 
 ### JBoss parent
