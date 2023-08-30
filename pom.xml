@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.kie</groupId>
     <artifactId>kie-parent</artifactId>
-    <version>7.74.0-20230830.090434-2</version>
+    <version>7.74.0-20230830.093935-3</version>
   </parent>
 
   <artifactId>kie-wb-distributions</artifactId>
