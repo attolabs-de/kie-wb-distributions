@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.kie</groupId>
     <artifactId>kie-parent</artifactId>
-    <version>7.74.0-20230823.064240-2</version>
+    <version>7.74.0-20230830.075504-1</version>
   </parent>
 
   <artifactId>kie-wb-distributions</artifactId>
@@ -45,22 +45,8 @@
   <repositories>
     <!-- Bootstrap repository to locate the parent pom when the parent pom has not been build locally. -->
     <repository>
-      <id>jboss-public-repository-group</id>
-      <name>JBoss Public Repository Group</name>
-      <url>https://repository.jboss.org/nexus/content/groups/public/</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-      </snapshots>
-    </repository>
-    <repository>
       <id>nexus-snapshots</id>
-      <url>https://nexusoss.albs.tech/repository/kie-parent/</url>
+      <url>https://nexusoss.albs.tech/repository/jboss-kie-parent/</url>
     </repository>
   </repositories>
 
