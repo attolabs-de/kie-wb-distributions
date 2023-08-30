@@ -133,6 +133,7 @@
         <version.org.apache.httpcomponents.httpcore>4.4.14</version.org.apache.httpcomponents.httpcore>
         <version.org.apache.karaf>4.3.8</version.org.apache.karaf>
         <version.org.apache.lucene>6.6.6</version.org.apache.lucene>
+        <version.org.apache.maven-core>3.8.1</version.org.apache.maven-core>
         <version.org.apache.maven>3.3.9</version.org.apache.maven>
         <version.org.apache.maven.utils>3.3.3</version.org.apache.maven.utils>
         <version.org.apache.maven.archiver>3.3.0</version.org.apache.maven.archiver>
@@ -2437,6 +2438,13 @@
                 <artifactId>gson</artifactId>
                 <version>${version.com.google.code.gson}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.jgroups/jgroups -->
+            <dependency>
+                <groupId>org.jgroups</groupId>
+                <artifactId>jgroups</artifactId>
+                <version>4.0.0.Final</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.google.guava</groupId>
@@ -3911,11 +3919,15 @@
             <dependency>
                 <groupId>org.apache.maven</groupId>
                 <artifactId>maven-core</artifactId>
-                <version>${version.org.apache.maven}</version>
+                <version>${version.org.apache.maven-core}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.enterprise</groupId>
                         <artifactId>cdi-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>javax.inject</groupId>
+                        <artifactId>javax.inject</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -3942,7 +3954,7 @@
             <dependency>
                 <groupId>org.apache.maven</groupId>
                 <artifactId>maven-compat</artifactId>
-                <version>${version.org.apache.maven}</version>
+                <version>${version.org.apache.maven-core}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.maven</groupId>
