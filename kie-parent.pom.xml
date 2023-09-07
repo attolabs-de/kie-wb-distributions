@@ -133,7 +133,7 @@
         <version.org.apache.httpcomponents.httpcore>4.4.14</version.org.apache.httpcomponents.httpcore>
         <version.org.apache.karaf>4.3.8</version.org.apache.karaf>
         <version.org.apache.lucene>6.6.6</version.org.apache.lucene>
-        <version.org.apache.maven-core>3.8.1</version.org.apache.maven-core>
+        <version.org.apache.maven-core>3.3.9</version.org.apache.maven-core>
         <version.org.apache.maven>3.3.9</version.org.apache.maven>
         <version.org.apache.maven.utils>3.3.3</version.org.apache.maven.utils>
         <version.org.apache.maven.archiver>3.3.0</version.org.apache.maven.archiver>
@@ -242,7 +242,7 @@
         <version.org.owasp.encoder>1.2</version.org.owasp.encoder>
         <version.org.powermock>2.0.7</version.org.powermock>
         <version.org.python>2.7.2</version.org.python>
-        <version.org.quartz-scheduler>2.3.2</version.org.quartz-scheduler>
+        <version.org.quartz-scheduler>2.4.0-rc1</version.org.quartz-scheduler>
         <version.org.reflections>0.10.2</version.org.reflections>
         <!--  Avoid using scannotation in favor of its successor org.reflections  -->
         <version.org.scannotation>1.0.3</version.org.scannotation>
