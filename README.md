@@ -41,7 +41,7 @@ We had an issue with uploading artifacts built in Java 17. The changes in this r
    <parent>
       <groupId>org.kie</groupId>
       <artifactId>kie-parent</artifactId>
-      <version>7.74.0-20230823.064240-2</version>
+      <version>7.74.0-20230912.085605-4</version>
    </parent>
    ```
 ## Versions and differences
