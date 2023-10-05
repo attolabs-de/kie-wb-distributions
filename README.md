@@ -23,7 +23,7 @@ We had an issue with uploading artifacts built in Java 17. The changes in this r
  ```
  <repository>
     <id>nexus-snapshots</id>
-    <url>https://nexusoss.albs.tech/repository/kie-parent/</url>
+    <url>https://nexusoss.albs.tech/repository/jboss-kie-parent/</url>
  </repository>
  ```
 2. Parent version was changed
